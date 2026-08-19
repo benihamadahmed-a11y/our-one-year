@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#120b20">
+  <title>One Year With You ♡</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="hearts"></div>
+  <div class="stars"></div>
+
+  <header class="hero">
+    <nav>
+      <div class="logo">A ♡ L</div>
+      <div class="nav-links">
+        <a href="#story">Our Story</a>
+        <a href="#gallery">Memories</a>
+        <a href="#letter">Letter</a>
+        <a href="#future">Future</a>
+      </div>
+    </nav>
+
+    <div class="hero-content">
+      <p class="eyebrow">A little website made with a lot of love</p>
+      <h1>One year.<br><span>Us.</span> ♡</h1>
+      <p class="subtitle">365 days of memories, laughter, late nights, little moments and a love that became part of my world.</p>
+      <div class="counter-card">
+        <div><strong id="days">365</strong><small>days together</small></div>
+        <div><strong>∞</strong><small>more to come</small></div>
+      </div>
+      <button class="primary-btn" onclick="openSurprise()">Open your surprise ♡</button>
+      <button class="music-btn" onclick="toggleMusic()">♫ <span id="musicText">Play our song</span></button>
+    </div>
+    <div class="scroll-hint">↓ scroll slowly, love</div>
+  </header>
+
+  <main>
+    <section id="story" class="section">
+      <p class="eyebrow">Chapter I</p>
+      <h2>Somehow, it became <span>us.</span></h2>
+      <p class="intro">There are millions of people in this world, but somehow our paths crossed. And out of all the ordinary days, we created something that doesn't feel ordinary at all.</p>
+
+      <div class="timeline">
+        <article class="timeline-card">
+          <span>01</span><h3>The beginning</h3>
+          <p>Put your first memory here — the first conversation, first message, first moment when you realized she was special.</p>
+        </article>
+        <article class="timeline-card">
+          <span>02</span><h3>The little things</h3>
+          <p>The random calls. The stupid jokes. The good mornings. The good nights. The moments that looked small but meant everything.</p>
+        </article>
+        <article class="timeline-card">
+          <span>03</span><h3>One whole year</h3>
+          <p>One year later, this isn't just a date. It's a collection of hundreds of tiny reasons to say: I'm glad it was you.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="gallery" class="section gallery-section">
+      <p class="eyebrow">Chapter II</p>
+      <h2>Our little <span>museum.</span></h2>
+      <p class="intro">Replace the sample cards with your favorite photos. The layout automatically gives important pictures more space.</p>
+      <div class="gallery">
+        <div class="photo p1"><img src="assets/photos/photo1.jpg" alt="Our memory 1"><div>your favorite photo ♡</div></div>
+        <div class="photo p2"><img src="assets/photos/photo2.jpg" alt="Our memory 2"><div>that smile...</div></div>
+        <div class="photo p3"><img src="assets/photos/photo3.jpg" alt="Our memory 3"><div>a moment worth keeping</div></div>
+        <div class="photo p4"><img src="assets/photos/photo4.jpg" alt="Our memory 4"><div>just us</div></div>
+        <div class="photo p5"><img src="assets/photos/photo5.jpg" alt="Our memory 5"><div>one of my favorites</div></div>
+        <div class="photo p6"><img src="assets/photos/photo6.jpg" alt="Our memory 6"><div>♡</div></div>
+      </div>
+    </section>
+
+    <section class="reasons section">
+      <p class="eyebrow">Chapter III</p>
+      <h2>Why I love <span>you.</span></h2>
+      <div class="reason-grid">
+        <button onclick="reason(this)">Her smile</button>
+        <button onclick="reason(this)">Her heart</button>
+        <button onclick="reason(this)">The way she cares</button>
+        <button onclick="reason(this)">Our stupid jokes</button>
+        <button onclick="reason(this)">How she makes ordinary days special</button>
+        <button onclick="reason(this)">Because she's simply her</button>
+      </div>
+      <p id="reasonOutput" class="reason-output">Click one. I promise there is more behind every answer.</p>
+    </section>
+
+    <section id="letter" class="letter-section">
+      <div class="letter">
+        <p class="eyebrow">Chapter IV · Egy levél neked</p>
+        <h2>Drága Szerelmem,</h2>
+        <div class="letter-body">
+          <p>Ha visszagondolok az elmúlt egy évre, még mindig nehéz elhinni, hogy ennyi minden beleférhet egyetlen évbe. Annyi emlékünk, beszélgetésünk, nevetésünk, hiányzásunk és apró pillanatunk lett, hogy már nem is tudom egyszerűen „egy évnek” nevezni. Nekem ez az év egy kis világ lett — egy világ, amelyben te vagy az egyik legfontosabb ember.</p>
+          <p>Szeretem benned azt, ahogyan önmagad vagy. Szeretem a mosolyodat, a hangodat, a kis furcsaságaidat, a gondoskodásodat, és még azokat az apróságokat is, amelyekről talán nem is tudod, mennyit jelentenek nekem. Nem azért szeretlek, mert tökéletes vagy, hanem azért, mert te vagy te. És számomra ez sokkal többet jelent a tökéletességnél.</p>
+          <p>Ez az egy év megtanított arra, hogy a távolság nem tudja eltörölni azt, ami két ember között valódi. Lehetnek nehéz napok, lehetünk fáradtak, lehet, hogy hiányzol, de a végén még mindig te vagy az, akire gondolni szeretnék.</p>
+          <p>Köszönöm, hogy az életem része vagy. Köszönöm minden üzenetedet, minden nevetést, minden „jó éjt”-et, minden pillanatot, amikor egy kicsit jobb lett a napom miattad. Ha ez csak az első fejezet volt, akkor alig várom, hogy lássam a következőket.</p>
+          <p>Boldog első évfordulót, szerelmem. ❤️</p>
+          <p>Remélem, még rengeteg közös emlék, ölelés, utazás, nevetés és egyszerű, hétköznapi pillanat vár ránk.</p>
+          <p class="signature">Mindig szeretettel,<br><strong>Ahmed ♡</strong></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="future" class="future section">
+      <p class="eyebrow">Chapter V</p>
+      <h2>To be continued...</h2>
+      <div class="future-card">
+        <div class="big-heart">♡</div>
+        <p>One year is beautiful.</p>
+        <p class="big-text">But I don't want just one year.</p>
+        <p>I want the next chapter, and the one after that, and all the ordinary days in between.</p>
+        <button class="primary-btn" onclick="openFuture()">Our future ✨</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made for the girl who made this year unforgettable.</p>
+    <span>♡</span>
+  </footer>
+
+  <div id="modal" class="modal hidden">
+    <div class="modal-box">
+      <button class="close" onclick="closeModal()">×</button>
+      <div class="modal-heart">♡</div>
+      <h2>One more thing...</h2>
+      <p id="modalText"></p>
+      <button class="primary-btn" onclick="closeModal()">I love you too ♡</button>
+    </div>
+  </div>
+
+  <audio id="song" loop preload="metadata">
+    <source src="assets/song.mp3" type="audio/mpeg">
+  </audio>
+  <script src="script.js"></script>
+</body>
+</html>
